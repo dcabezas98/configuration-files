@@ -27,7 +27,8 @@
  '(package-selected-packages
    (quote
     (auctex-latexmk auctex paganini-theme markdown-preview-mode markdown-mode+)))
- '(show-paren-mode t))
+ '(show-paren-mode t)
+ '(vc-follow-symlinks nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

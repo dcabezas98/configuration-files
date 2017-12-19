@@ -123,4 +123,4 @@ alias jupyternb='sage -notebook=jupyter'
 alias valgrindf='valgrind --leak-check=full --track-origins=yes'
 alias vpnugr='sudo openconnect vpn2.ugr.es -u dxabezas@correo.ugr.es'
 alias jupyternb='sage -notebook=jupyter'
-
+alias path='pwd'
