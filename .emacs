@@ -1,3 +1,19 @@
+;; MELPA
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (add-to-list
+   'package-archives
+   '("melpa" . "http://melpa.org/packages/")
+   t)
+  (package-initialize))
+
+;; packages
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  )
+
 ;;THEMES
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (custom-set-variables
@@ -5,6 +21,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(TeX-view-program-selection
+   (quote
+    (((output-dvi has-no-display-manager)
+      "dvi2tty")
+     ((output-dvi style-pstricks)
+      "dvips and gv")
+     (output-dvi "xdvi")
+     (output-pdf "Evince")
+     (output-html "xdg-open"))))
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
@@ -12,20 +37,18 @@
  '(custom-enabled-themes (quote (paganini)))
  '(custom-safe-themes
    (quote
-    ("1e67765ecb4e53df20a96fb708a8601f6d7c8f02edb09d16c838e465ebe7f51b" "f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
+    ("f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
  '(inhibit-startup-screen t)
  '(markdown-command "/usr/local/bin/pandoc")
  '(package-selected-packages
    (quote
-    (auctex-latexmk auctex paganini-theme markdown-preview-mode markdown-mode+)))
- '(show-paren-mode t)
- '(vc-follow-symlinks nil))
+    (rust-playground rust-mode auctex paganini-theme markdown-preview-mode markdown-mode+))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans" :foundry "PfEd" :slant normal :weight normal :height 120 :width normal)))))
+ '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 143 :width normal)))))
 
 ;;CONFIGS
 
