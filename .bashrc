@@ -124,3 +124,8 @@ alias valgrindf='valgrind --leak-check=full --track-origins=yes'
 alias vpnugr='sudo openconnect vpn2.ugr.es -u dxabezas@correo.ugr.es'
 alias path='pwd'
 alias dep='shutdown now'
+
+# AC
+alias acpass='echo "nttfacdzab"'
+alias acssh='ssh E1estudiante12@atcgrid.ugr.es'
+alias acsftp='sftp E1estudiante12@atcgrid.ugr.es'
