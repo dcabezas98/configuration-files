@@ -126,6 +126,7 @@ alias path='pwd'
 alias dep='shutdown now'
 
 # AC
-alias acpass='echo "nttfacdzab"'
+alias acpass='xclip -sel clip < ~/.acpass'
 alias acssh='ssh E1estudiante12@atcgrid.ugr.es'
 alias acsftp='sftp E1estudiante12@atcgrid.ugr.es'
+alias acpromt='PS1="[DavidCabezasBerrido \u@\h:\w] \D{%F %A}\n$" && export PS1'
