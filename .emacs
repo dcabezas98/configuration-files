@@ -42,13 +42,15 @@
  '(markdown-command "/usr/local/bin/pandoc")
  '(package-selected-packages
    (quote
-    (rust-playground rust-mode auctex paganini-theme markdown-preview-mode markdown-mode+))))
+    (rust-playground rust-mode auctex paganini-theme markdown-preview-mode markdown-mode+)))
+ '(show-paren-mode t)
+ '(vc-follow-symlinks nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 143 :width normal)))))
+ '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 158 :width normal)))))
 
 ;;CONFIGS
 
