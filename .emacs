@@ -37,12 +37,12 @@
  '(custom-enabled-themes (quote (paganini)))
  '(custom-safe-themes
    (quote
-    ("f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
+    ("7527f3308a83721f9b6d50a36698baaedc79ded9f6d5bd4e9a28a22ab13b3cb1" "f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
  '(inhibit-startup-screen t)
  '(markdown-command "/usr/local/bin/pandoc")
  '(package-selected-packages
    (quote
-    (rust-playground rust-mode auctex paganini-theme markdown-preview-mode markdown-mode+)))
+    (nord-theme rust-playground rust-mode auctex paganini-theme markdown-preview-mode markdown-mode+)))
  '(show-paren-mode t)
  '(vc-follow-symlinks nil))
 (custom-set-faces
@@ -50,7 +50,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 158 :width normal)))))
+ '(default ((t (:family "Ubuntu Mono" :foundry "DAMA" :slant normal :weight normal :height 181 :width normal)))))
 
 ;;CONFIGS
 

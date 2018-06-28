@@ -118,15 +118,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias cleantex='rm *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
+alias cleantex='rm *.nav *.snm *.vrb *.toc *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
 alias jupyternb='sage -notebook=jupyter'
 alias valgrindf='valgrind --leak-check=full --track-origins=yes'
 alias vpnugr='sudo openconnect vpn2.ugr.es -u dxabezas@correo.ugr.es'
 alias path='pwd'
 alias dep='shutdown now'
-
-# AC
-alias acpass='xclip -sel clip < ~/.acpass'
-alias acssh='ssh E1estudiante12@atcgrid.ugr.es'
-alias acsftp='sftp E1estudiante12@atcgrid.ugr.es'
-alias acpromt='PS1="[DavidCabezasBerrido \u@\h:\w] \D{%F %A}\n$" && export PS1'
