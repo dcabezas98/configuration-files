@@ -37,7 +37,7 @@
  '(custom-enabled-themes (quote (paganini)))
  '(custom-safe-themes
    (quote
-    ("7527f3308a83721f9b6d50a36698baaedc79ded9f6d5bd4e9a28a22ab13b3cb1" "f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
+    ("c221703cc604312f6f72349704f7329f80ccc6a261af769332ec80171b728cc0" "7527f3308a83721f9b6d50a36698baaedc79ded9f6d5bd4e9a28a22ab13b3cb1" "f146cf0feba4fed38730de65e924e26140b470a4d503287e9ddcf7cca0b5b3f0" default)))
  '(inhibit-startup-screen t)
  '(markdown-command "/usr/local/bin/pandoc")
  '(package-selected-packages
@@ -56,7 +56,7 @@
 
 (setf fill-column 80)
 (add-hook 'latex-mode-hook #'auto-fill-mode)
-(setq default-cursor-type 'bar)
+(setq-default cursor-type 'bar)
 (delete-selection-mode 1)
 (put 'upcase-region 'disabled nil)
 (setq backup-directory-alist '(("" . "~/.emacs.d/backups")))
