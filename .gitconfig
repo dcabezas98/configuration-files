@@ -1,0 +1,12 @@
+[user]
+	name = David Cabezas Berrido
+	email = dxabezas@gmail.com
+[color "status"]
+       changed = blue normal bold
+       untracked = red normal bold
+       added = green normal bold
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold

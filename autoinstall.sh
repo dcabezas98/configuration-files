@@ -27,4 +27,5 @@ else
 	rm ~/.emacs 2> /dev/null
 	ln -s ~/Documents/git/configuration-files/.bashrc ~/.bashrc
 	ln -s ~/Documents/git/configuration-files/.emacs ~/.emacs
+	ln -s ~/Documents/git/configuration-files/.gitconfig ~/.gitconfig
 fi
