@@ -12,7 +12,7 @@ else
 	# Git
 	mkdir ~/Documents/git 2> /dev/null
 	sudo apt install git
-	git config --global user.name "David Cabezas"
+	git config --global user.name "David Cabezas Berrido"
 	git config --global user.email "dxabezas@gmail.com"
 
 	# Emacs

@@ -118,6 +118,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PATH=":$PATH:/home/dcabezas/development/flutter/bin"
+
 alias cleantex='rm *.nav *.snm *.vrb *.toc *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
 alias jupyternb='sage -notebook=jupyter'
 alias valgrindf='valgrind --leak-check=full --track-origins=yes'
