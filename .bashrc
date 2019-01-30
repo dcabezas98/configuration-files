@@ -119,6 +119,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=":$PATH:/home/dcabezas/development/flutter/bin"
+export PATH=":$PATH:/home/dcabezas/development/android-studio/bin"
 
 alias cleantex='rm *.nav *.snm *.vrb *.toc *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
 alias jupyternb='sage -notebook=jupyter'
