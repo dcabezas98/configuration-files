@@ -28,4 +28,7 @@ else
 	ln -s ~/Documents/git/configuration-files/.bashrc ~/.bashrc
 	ln -s ~/Documents/git/configuration-files/.emacs ~/.emacs
 	ln -s ~/Documents/git/configuration-files/.gitconfig ~/.gitconfig
+
+	# Disables requesting user password after suspend
+	gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend 'false'
 fi
