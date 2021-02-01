@@ -121,9 +121,8 @@ fi
 export PATH=":$PATH:/home/dcabezas/development/flutter/bin"
 export PATH=":$PATH:/home/dcabezas/development/android-studio/bin"
 
-alias cleantex='rm *.nav *.snm *.vrb *.toc *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
+alias cleantex='rm *.blg *.bbl *.xml *.bcf *.idx *.nav *.snm *.vrb *.toc *.aux *.log *.out *.fdb_latexmk *.fls 2> /dev/null'
 alias sage='~/SageMath/sage -n jupyter'
 alias valgrindf='valgrind --leak-check=full --track-origins=yes'
 alias vpnugr='sudo openconnect vpn.ugr.es -u dxabezas@correo.ugr.es'
 alias path='pwd'
-alias dep='shutdown now'
